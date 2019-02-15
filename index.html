@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Social Track</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />   
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a class="header__logo__text"><img src="img/sociotrack-logo.png"></a>
+        </div>
+        <div class="header__menu">
+            <nav class="header__menu__top">
+                <a href="#" class="header__menu__top__notification">
+                    <img src="img\notification-icon.svg">
+                    <span class="label__notofication">2</span>
+                </a>
+                <a href="#" class="header__menu__top__search">
+                    <img src="img\search-icon.svg" alt="search">
+                </a>
+            </nav>
+        </div>
+    </header>
+    <div class="main-wrapper">
+        <aside class="sidebar">
+            <div class="sidebar__top">
+                <div class="sidebar__profile">
+                    <div class="sidebar__profile__photo">
+                        <img src="img/Avatar.png">
+                    </div>
+                    <div class="sidebar__profile__info">
+                        <span class="sidebar__profile__info__name">Abhisek Das <img src="img\Chevron.svg" alt="chevron"></span>
+                        <span class="sidebar__profile__info__followers">10,968 Followers</span>
+                    </div>
+                </div>
+                <div class="sidebar__menu">
+                    <button class="sidebar__menu__item active__tab">
+                        <img src="img/dashboard-icon.svg">
+                        <span>Dashboard</span>
+                    </button>
+                    <button class="sidebar__menu__item">
+                        <img src="img\social-feed-icon.svg">
+                        <span>Social Feed</span>
+                    </button>
+                    <button class="sidebar__menu__item">
+                        <img src="img\invite-friends-icon.svg">
+                        <span>Invite Friends</span>
+                    </button>
+                    <button class="sidebar__menu__item">
+                        <img src="img\settings-icon.svg">
+                        <span>Settings</span>
+                    </button>
+                    <button class="sidebar__menu__item">
+                        <img src="img\log-out-icon.svg">
+                        <span>Log out</span>
+                    </button>
+                </div>
+            </div>    
+            <div class="sidebar__footer">
+                <a href="#" class="sidebar__footer__item">About</a>
+                <a href="#" class="sidebar__footer__item">Terms</a>
+                <a href="#" class="sidebar__footer__item">Privacy</a>
+                <a href="#" class="sidebar__footer__item">Help</a>
+                <a href="#" class="sidebar__footer__item">Report</a>
+            </div>
+        </aside>
+        <div class="content">
+            <div class="main cont">
+                <div class="main__header">
+                    <div class="main__header__top">
+                        <span class="main__header__top__login">@abhisek.das</span>
+                        <button class="main__header__top__add-button">+ Add Social Profile</button>
+                    </div>
+                    <div class="main__header__tabs">
+                        <button class="main__header__tabs__item active__tab1">Last Day</button>
+                        <button class="main__header__tabs__item">Week</button>
+                        <button class="main__header__tabs__item">Month</button>
+                    </div>
+                </div>
+                <div class="main__dashboard">
+    
+                </div>
+            </div>
+            <div class="social_feed cont">
+                <p class="some_content">
+                    Here can be some feed
+                </p>
+            </div>
+            <div class="invite_friends cont">
+                <p class="some_content">
+                    Here you can invite friends
+                </p>
+            </div>
+            <div class="settings cont">
+                <p class="some_content">
+                    Here can be some settings
+                </p>
+            </div>
+            <div class="log_out cont">
+                <p class="some_content cont">
+                    Here can be log out section
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="modal_form">
+        <p class="modal_form__name">Add Social Profile</p>
+        <p class="modal_form__info">Add new social profile for tracking</p>
+        <p class="modal_form__url">URL</p>
+        <form action="#" method="POST">
+            <input class="modal_form__input" type="text" placeholder="https://twitter.com/user">
+            <button class="modal_form__button" type="submit">
+                Lookup
+            </button>
+        </form>
+        <span class="modal_close"><img src="img\Line.png" alt=""></span>
+    </div>
+    <div class="overlay"></div><!-- Пoдлoжкa -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/social.js"></script>
+    <script type="text/javascript" src="js/main1.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
