@@ -32,7 +32,7 @@ button:focus {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    width: 83.4%; }
+    width: 100%; }
     .header__menu__top a {
       margin-right: 20px;
       text-decoration: none; }
