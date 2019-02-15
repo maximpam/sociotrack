@@ -293,7 +293,7 @@ var socialw = [{
         {
             "name": "YouTube",
             "followers": "3,190",
-            "logo": "img\\Facebook-color.svg",
+            "logo": "img\\logo1.png",
             "login": "@TheAbhisekD",
             "change": "+22",
             "background": "background: linear-gradient(180deg, #CE1312 0%, #B01312 100%), #CE1312;",
@@ -341,9 +341,6 @@ var socialw = [{
         }
        
     ];
-
-    var item;
-    var a;
 
     
     createElement = a => `
