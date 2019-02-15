@@ -2,6 +2,10 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+button:active,
+button:focus {
+  outline: none; }
+
 /* Header */
 .header {
   display: -webkit-box;
@@ -282,6 +286,8 @@
         margin-right: 20px; }
         .main__header__tabs__item:hover {
           color: #1CAF5E; }
+        .main__header__tabs__item:active {
+          outline: none; }
   .main__dashboard {
     width: 80%;
     display: -webkit-box;

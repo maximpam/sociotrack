@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+button:active,
+button:focus {
+    outline: none;
+}
 /* Header */
 .header{
     display: flex;
@@ -241,9 +245,15 @@
                 &:hover{
                     color: #1CAF5E;
                 }
+                &:active{
+                    outline: none;
+                }
             }
         }
     }
+
+
+
     &__dashboard{
         width: 80%;
         display: flex;
